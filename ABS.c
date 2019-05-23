@@ -32,8 +32,7 @@ int main(void)
     CLR_BIT(DDRC,PC0);
     CLR_BIT(DDRC,PC2);
     SET_BIT(DDRB,5);
-    uint16_t Speed=0;
-    uint16_t Rpm=0;
+   
 
     while(1)
     {
