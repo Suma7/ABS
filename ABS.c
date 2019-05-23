@@ -37,6 +37,8 @@ int main(void)
 
     while(1)
     {
+        uint16_t Speed=0;
+    uint16_t Rpm=0;
         Speed = readADC(0);
         _delay_ms(200);
         Rpm = readADC(2);
